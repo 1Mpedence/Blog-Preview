@@ -1,7 +1,8 @@
 import '../../App.css';
 import './Card.css'
 
-function App() {
+function App({ title }) {
+  console.log(title);
   return (
     <div className="card">
       <div className="card-img">
@@ -18,7 +19,7 @@ function App() {
           HTML & CSS Foundations
         </div>
         <div className='content'>
-          These languages are the backbone of every website, defining structure, content, and presentation. Greg Hooper
+          These languages are the backbone of every website, defining structure, content, and presentation.
         </div>
       </div>
       <div className="footer">
