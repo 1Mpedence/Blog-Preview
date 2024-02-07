@@ -1,0 +1,20 @@
+:root {
+  --primary-yellow: hsl(47, 88%, 63%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-grey: hsl(0, 0%, 50%);
+  --neutral-black: hsl(0, 0%, 7%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Figtree', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100lvh;
+  width: 100lvw;
+  background: var(--primary-yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
