@@ -59,8 +59,8 @@
 }
 
 .footer-img {
-  width: 1.5em;
-  height: auto;
+  height: 1.5em;
+  aspect-ratio: 1;
 }
 
 .footer-name {
